@@ -32,12 +32,5 @@ docutils==0.17.1
 entrypoints==0.4
 filelock==3.4.1
 flake8==4.0.1
-Flask==2.1.2
+Flask==2.0.3
 virtualenv==20.14.1
-watchdog==2.1.7
-wcwidth==0.2.5
-webencodings==0.5.1
-Werkzeug==2.1.2
-wrapt==1.14.0
-yapf==0.32.0
-zipp==3.7.0

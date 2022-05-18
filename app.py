@@ -17,7 +17,7 @@ def main():
 @app.route("/how_are_you")
 def hello():
     return "I am Good. What about u"
-    
+
 if __name__ == "__main__":
-    app.run(port=8080)
+    app.run(host="0.0.0.0",port=8080)
     

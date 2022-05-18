@@ -14,10 +14,10 @@ app = Flask(__name__)
 def main():
     return "Welcome"
     
-@app.hello("/how are you")
+@app.route("/how_are_you")
 def hello():
     return "I am Good. What about u"
     
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",post=8080)
+    app.run(port=8080)
     

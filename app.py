@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome"
+    return "Welcome to my home"
     
 @app.route("/how_are_you")
 def hello():
